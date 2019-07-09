@@ -1,0 +1,12 @@
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\bin\Debug\Protectos.Infra.CrossCutting.MvcFilters.dll
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\bin\Debug\Protectos.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.dll
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.csprojAssemblyReference.cache
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\bin\Debug\Protectos.Infra.CrossCutting.MvcFilters.dll
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\bin\Debug\Protectos.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.dll
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.pdb
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.MvcFilters\obj\Debug\Protectos.Infra.CrossCutting.MvcFilters.csprojAssemblyReference.cache

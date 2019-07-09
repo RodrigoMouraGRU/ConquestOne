@@ -1,0 +1,10 @@
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\bin\Debug\Protectos.Infra.CrossCutting.Identity.dll
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\bin\Debug\Protectos.Infra.CrossCutting.Identity.pdb
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.dll
+C:\Users\rodri\Documents\Repositorio\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.pdb
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\bin\Debug\Protectos.Infra.CrossCutting.Identity.dll
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\bin\Debug\Protectos.Infra.CrossCutting.Identity.pdb
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.csproj.CoreCompileInputs.cache
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.dll
+C:\Users\rodri\Documents\TesteConcept\Protectos_v3\src\Protectos.Infra.CrossCutting.Identity\obj\Debug\Protectos.Infra.CrossCutting.Identity.pdb

@@ -1,0 +1,108 @@
+﻿
+@model IEnumerable<Protectos.Application.ViewModels.Administradoras.AdministradoraTelefoneViewModel>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <strong>Telefones</strong>
+    </div>
+
+    @if (Model.Any())
+    {
+        <table id="TableTelefones" class="table table-hover">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Prefixo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Numero)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.TipoTelefone)
+                </th>
+
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Prefixo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Numero)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.TipoTelefone)
+                    </td>
+
+                    <td>
+                        <a href="@Url.Action("AtualizarTelefone", "Administradora", new {id = item.TelefoneId})" data-modal="" class="btn btn-default">
+                            <span title="Editar" class="glyphicon glyphicon-pencil"></span>
+                        </a>
+                        <a href="@Url.Action("DeletarTelefone", "Administradora", new {id = item.TelefoneId})" data-modal="" class="btn btn-danger">
+                            <span title="Excluir" class="glyphicon glyphicon-trash"></span>
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+    }
+    else
+    {
+        <table class="table">
+            <tr>
+                <th>
+                    Nenhum Telefone Cadastrado.
+                </th>
+            </tr>
+        </table>
+    }
+</div>
+<div>
+    <div class="form-group">
+
+
+        @Html.ActionLink("Novo Telefone", "AdicionarTelefone", "Administradora", new { id = ViewBag.AdministradoraId }, new { @class = "btn btn-primary", data_modal = "" })
+
+    </div>
+</div>
+
+<script type="text/javascript">
+
+
+    $(function () {
+        $.ajaxSetup({ cache: false });
+
+        $("a[data-modal]").on("click", function (e) {
+            $('#myModalContentTelefone').load(this.href, function () {
+                $('#myModalTelefone').modal({
+                    /*backdrop: 'static',*/
+                    keyboard: true
+                }, 'show');
+                bindFormTelefone(this);
+            });
+            return false;
+        });
+    });
+
+    function bindFormTelefone(dialog) {
+        $('form', dialog).submit(function () {
+            $.ajax({
+                url: this.action,
+                type: this.method,
+                data: $(this).serialize(),
+                success: function (result) {
+                    if (result.success) {
+                        $('#myModalTelefone').modal('hide');
+                        $('#replacetargetTelefone').load(result.url); // Carrega o resultado HTML para a div demarcada
+                    } else {
+                        $('#myModalContentTelefone').html(result);
+                        bindFormTelefone(dialog);
+                    }
+                }
+            });
+            return false;
+        });
+    }
+</script>
